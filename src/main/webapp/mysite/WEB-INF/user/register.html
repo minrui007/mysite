@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    <form action="/user/insert" method="post">
+        <table>
+            <tr>
+                <td>
+                    用户名：
+                </td>
+                <td>
+                    <input type="text" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    密码：
+                </td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    姓名：
+                </td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    电话：
+                </td>
+                <td>
+                   <input type="text" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    性别：
+                </td>
+                <td>
+                    <select name="sex">
+                        <option value="0">男</option>
+                        <option value="1">女</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
